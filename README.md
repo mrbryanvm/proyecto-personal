@@ -87,4 +87,4 @@ Git también facilita la colaboración entre desarrolladores a través de reposi
 
 **git commit**: Después de agregar los archivos al área de preparación con git add, el comando git commit se utiliza para crear un nuevo commit que registre los cambios. Cada commit en Git tiene un mensaje asociado que describe los cambios realizados en ese commit. Se suele usar el flag -m para añadir un mensaje directamente desde la línea de comandos (git commit -m "mensaje del commit").
 
-**git log**: Este comando muestra un historial de commits en la rama actual. Proporciona información detallada sobre cada commit, como el autor, la fecha y hora, y el mensaje del commit. git log muestra los commits más recientes primero y puedes navegar por el historial utilizando las teclas de flecha o el scroll del ratón.
+**git log**: Este comando muestra un historial de commits en la rama actual. Proporciona información detallada sobre cada commit, como el autor, la fecha y hora, y el mensaje del commit. git log muestra los commits más recientes.
