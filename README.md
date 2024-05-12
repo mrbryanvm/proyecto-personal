@@ -123,3 +123,36 @@ Hacer push de la rama a tu repositorio remoto.
 En la plataforma de alojamiento (por ejemplo, GitHub), ir al repositorio y crear un pull request seleccionando la rama de la que deseas fusionar los cambios y la rama a la que deseas fusionarlos.
 Los colaboradores del proyecto pueden revisar tus cambios, hacer comentarios y sugerencias, y finalmente aprobar o rechazar el pull request.
 Una vez aprobado, los cambios se fusionan en la rama de destino.
+
+# 5. CLASE CUATRO
+## Introducción a GitHub:
+GitHub es una plataforma de desarrollo colaborativo basada en Git que permite a los equipos trabajar juntos en proyectos de software.
+Proporciona herramientas para gestionar repositorios de código, realizar seguimiento de problemas, revisar código, alojar documentación y mucho más.
+Es ampliamente utilizado por desarrolladores de software de todo el mundo y es especialmente popular en proyectos de código abierto.
+
+**Comandos relevantes:**
+
+**git clone**: Este comando se utiliza para clonar un repositorio remoto en tu máquina local. La sintaxis básica es git clone <URL_del_repositorio>, donde <URL_del_repositorio> es la dirección URL del repositorio que deseas clonar.
+
+Ejemplo: git clone https://github.com/ejemplo/repo.git
+
+**git pull**: El comando git pull se utiliza para recuperar los cambios desde un repositorio remoto y fusionarlos con tu rama local. 
+Es útil cuando quieres asegurarte de tener la última versión del código en tu máquina.
+
+Ejemplo: git pull origin master
+
+**git push**: Este comando se utiliza para enviar tus cambios locales al repositorio remoto.
+Es necesario después de realizar cambios y commits en tu repositorio local y quieres que esos cambios estén disponibles para otros colaboradores del proyecto.
+
+Ejemplo: git push origin master
+
+**git add**: Antes de confirmar (commit) tus cambios en Git, necesitas agregar los archivos modificados o nuevos al área de preparación (staging area) utilizando el comando git add.
+
+Ejemplo: git add archivo_modificado.txt
+
+git commit: El comando git commit toma todos los cambios agregados al área de preparación y los guarda permanentemente en la historia del proyecto como un nuevo commit.
+Es importante incluir un mensaje descriptivo que explique los cambios realizados en el commit.
+
+Ejemplo: git commit -m "Agrega nuevas funcionalidades"
+
+**git branch**: Como se explicó anteriormente, git branch se utiliza para crear, listar y gestionar ramas en tu repositorio Git.
