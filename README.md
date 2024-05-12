@@ -88,3 +88,18 @@ Git también facilita la colaboración entre desarrolladores a través de reposi
 **git commit**: Después de agregar los archivos al área de preparación con git add, el comando git commit se utiliza para crear un nuevo commit que registre los cambios. Cada commit en Git tiene un mensaje asociado que describe los cambios realizados en ese commit. Se suele usar el flag -m para añadir un mensaje directamente desde la línea de comandos (git commit -m "mensaje del commit").
 
 **git log**: Este comando muestra un historial de commits en la rama actual. Proporciona información detallada sobre cada commit, como el autor, la fecha y hora, y el mensaje del commit. git log muestra los commits más recientes.
+
+# 3. CLASE DOS
+**git branch**: En Git, una rama (branch) es esencialmente una línea de desarrollo independiente. 
+Cada rama representa una versión separada del código base de un proyecto.
+ Al crear una rama, puedes trabajar en nuevas características, arreglar errores o realizar cambios sin afectar directamente la rama principal del proyecto (generalmente llamada "master" o "main").
+ Esto es útil para trabajar en paralelo con otros desarrolladores o para experimentar sin comprometer el código principal.
+
+**git branch <nombre_rama>**: Este comando se utiliza para crear una nueva rama con el nombre especificado a partir de la ubicación actual del repositorio.
+
+**git checkout <nombre_rama>**: Desplaza el repositorio a la rama especificada, lo que significa que todos los cambios posteriores que realices se aplicarán a esa rama.
+
+**git merge <nombre_rama>**: Combina los cambios de la rama especificada en la rama actual.
+Esto suele utilizarse para fusionar una rama de desarrollo de vuelta a la rama principal (como "master" o "main") después de completar una función o arreglo de errores en la rama de desarrollo.
+
+**git config**: Git config se utiliza para configurar opciones específicas de Git en tu sistema. Estas opciones pueden ser globales (para todos los repositorios) o específicas de un repositorio. Algunas de las configuraciones comunes incluyen nombre de usuario, dirección de correo electrónico, editor predeterminado, etc.
