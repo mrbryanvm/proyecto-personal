@@ -39,8 +39,7 @@
       - Future Branch Workflow
       - Gitflow Workflow
       - Forking Workflow
-7. CLASE SEIS
-8. CLASE SIETE
+
 
 ___
 
@@ -103,3 +102,24 @@ Cada rama representa una versión separada del código base de un proyecto.
 Esto suele utilizarse para fusionar una rama de desarrollo de vuelta a la rama principal (como "master" o "main") después de completar una función o arreglo de errores en la rama de desarrollo.
 
 **git config**: Git config se utiliza para configurar opciones específicas de Git en tu sistema. Estas opciones pueden ser globales (para todos los repositorios) o específicas de un repositorio. Algunas de las configuraciones comunes incluyen nombre de usuario, dirección de correo electrónico, editor predeterminado, etc.
+
+# 4. CLASE TRES
+
+**Ramas**: Como se mencionó anteriormente, las ramas en Git son líneas de desarrollo independientes que permiten trabajar en diferentes aspectos del proyecto sin afectar directamente la rama principal (generalmente "master" o "main").
+Cada rama puede contener cambios, commits y archivos diferentes, lo que facilita la colaboración en equipos y el desarrollo de nuevas funciones de manera aislada.
+
+**Comandos git merge**: Los comandos git merge se utilizan para combinar cambios de una rama a otra.
+Cuando ejecutas git merge, estás integrando los cambios de una rama (llamada rama fuente) en otra rama (llamada rama de destino).
+Esto suele hacerse después de completar el trabajo en una rama de función o una rama de desarrollo y deseas incorporar esos cambios en la rama principal del proyecto.
+
+**git merge <nombre_rama>**: Este comando fusiona los cambios de la rama especificada en la rama actual.
+Por ejemplo, si estás en la rama "main" y deseas fusionar los cambios de una rama llamada "nueva-caracteristica", ejecutarías git merge nueva-caracteristica.
+git pull-request: Un "pull request" es una característica de plataformas de alojamiento de repositorios como GitHub, GitLab o Bitbucket, que permite a los desarrolladores colaborar en el proceso de revisión de código. Un pull request es una solicitud para que los cambios realizados en una rama de un repositorio (generalmente una rama de función) se incorporen a otra rama (generalmente la rama principal).
+
+Los pasos típicos para crear un pull request incluyen:
+Crear una nueva rama para tu trabajo.
+Realizar los cambios necesarios en esa rama.
+Hacer push de la rama a tu repositorio remoto.
+En la plataforma de alojamiento (por ejemplo, GitHub), ir al repositorio y crear un pull request seleccionando la rama de la que deseas fusionar los cambios y la rama a la que deseas fusionarlos.
+Los colaboradores del proyecto pueden revisar tus cambios, hacer comentarios y sugerencias, y finalmente aprobar o rechazar el pull request.
+Una vez aprobado, los cambios se fusionan en la rama de destino.
