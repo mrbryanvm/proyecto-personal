@@ -156,3 +156,37 @@ Es importante incluir un mensaje descriptivo que explique los cambios realizados
 Ejemplo: git commit -m "Agrega nuevas funcionalidades"
 
 **git branch**: Como se explicó anteriormente, git branch se utiliza para crear, listar y gestionar ramas en tu repositorio Git.
+
+# 6. CLASE CINCO
+## Basic Workflow:
+
+Este flujo de trabajo es bastante simple y suele ser adecuado para proyectos pequeños o equipos que están comenzando a usar Git.
+
+El flujo básico implica trabajar directamente sobre la rama principal (como "master" o "main").
+Los desarrolladores crean ramas locales para trabajar en nuevas características o correcciones de errores.
+Después de completar el trabajo en una rama, se fusiona de vuelta a la rama principal.
+No hay ramificaciones permanentes para características específicas, y todas las actualizaciones se realizan en la rama principal.
+
+## Feature Branch Workflow:
+
+En este flujo de trabajo, cada nueva característica o tarea se desarrolla en su propia rama independiente.
+Los desarrolladores crean una nueva rama para cada característica que están trabajando.
+Después de completar la característica, se fusiona de vuelta a la rama principal (generalmente "master" o "main").
+Esto permite un desarrollo paralelo de características y facilita la colaboración en equipos grandes.
+
+## Gitflow Workflow:
+
+El flujo de trabajo Gitflow es un modelo más avanzado que se adapta bien a proyectos grandes y complejos.
+Define dos ramas principales: master y develop.
+Las nuevas características se desarrollan en ramas de características que se ramifican desde develop.
+Una vez que una característica está completa, se fusiona nuevamente en develop.
+Regularmente, se crea una rama de "release" a partir de develop para preparar versiones estables.
+Después de la prueba y la corrección de errores en la rama de "release", se fusiona en master y develop.
+Las correcciones de errores se realizan en ramas separadas y se fusionan nuevamente tanto en master como en develop.
+
+## Forking Workflow:
+
+Este flujo de trabajo es común en proyectos de código abierto con múltiples colaboradores.
+Cada colaborador crea un "fork" (copia) del repositorio original en su propia cuenta de GitHub.
+Luego, realizan cambios en sus propios forks y envían "pull requests" al repositorio original para que los cambios sean considerados.
+Los mantenedores del proyecto revisan y aceptan los pull requests, incorporando los cambios al proyecto principal.
